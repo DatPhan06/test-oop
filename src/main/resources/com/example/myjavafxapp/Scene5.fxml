@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../graphic/css/scene5.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.myjavafxapp.controller.Scene5Controller">
+    <VBox id="taskbar" prefHeight="800.0" prefWidth="255.0" spacing="10">
+        <Pane prefHeight="182.0" prefWidth="200.0"/>
+
+        <Button mnemonicParsing="false" onAction="#switchToScene1" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Home">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+
+        <Button layoutX="14.0" layoutY="161.0" onAction="#switchToScene2" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Search">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+
+        <Button layoutX="14.0" layoutY="120.0" onAction="#switchToScene3" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Translate">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="200.0" onAction="#switchToScene4" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Game">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Pane prefHeight="88.0" prefWidth="255.0"/>
+        <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="254.0" styleClass="class-button-color"
+                text="Grammar"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene6" prefHeight="43.0" prefWidth="254.0"
+                styleClass="class-button" text="Vocabulary"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene7" prefHeight="50.0" prefWidth="233.0"
+                styleClass="class-button" text="Help"/>
+        <Button mnemonicParsing="false" onAction="#showExitConfirmation" prefHeight="34.0" prefWidth="236.0" styleClass="class-button" text="Exit "/>
+    </VBox>
+    <Pane prefHeight="800.0" prefWidth="30.0"/>
+    <VBox prefHeight="800.0" prefWidth="954.0">
+        <children>
+            <Pane prefHeight="76.0" prefWidth="900.0"/>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="850.0" text="Grammar"
+                   textAlignment="CENTER" textFill="#cc3d8b">
+                <font>
+                    <Font name=".Vn3DH Normal" size="64.0"/>
+                </font>
+            </Label>
+        </children>
+        <Pane prefHeight="29.0" prefWidth="954.0"/>
+
+        <ScrollPane prefHeight="550.0" prefWidth="1000.0">
+            <!--            <ScrollPane styleClass="scroll-pane">-->
+
+            <VBox prefHeight="4113.0" prefWidth="919.0" spacing="10" style="-fx-padding: 10px;">
+                <Label styleClass="label-style1" text="Thì hiện tại đơn – Simple Present tense"/>
+                <Label style="-fx-font-weight: bold;" styleClass="label-style2" text="Khái niệm"/>
+                <Label styleClass="label-style3"
+                       text="Thì hiện tại đơn (Simple present tense) dùng để diễn tả một sự thật hiển nhiên hay một hành động diễn ra lặp đi lặp lại theo thói quen, phong tục, khả năng."/>
+
+                <Label style="-fx-font-weight: bold;" styleClass="label-style2" text="Công thức thì hiện tại đơn"/>
+
+                <VBox spacing="10" styleClass="label-style3">
+                    <Label style="-fx-font-weight: bold;" styleClass="label-style4" text="Loại câu"/>
+
+                    <HBox spacing="10">
+                        <Label style="-fx-font-weight: bold;" styleClass="label-style4" text="Đối với động từ thường"/>
+                        <Label styleClass="label-style3" text="S + V(s/es) + O"/>
+                    </HBox>
+
+                    <HBox spacing="10">
+                        <Label style="-fx-font-weight: bold;" styleClass="label-style4" text="Đối với động từ “to be”"/>
+                        <Label styleClass="label-style3" text="S + be (am/is/are) + O"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="10">
+                    <Label style="-fx-font-weight: bold;" styleClass="label-style3" text="Phủ định"/>
+
+                    <HBox spacing="10">
+                        <Label styleClass="label-style4" text="S + do not / does not + V_inf"/>
+                        <Label styleClass="label-style3" text="S + be (am/is/are) + not + O"/>
+                    </HBox>
+                </VBox>
+
+                <VBox spacing="10">
+                    <Label style="-fx-font-weight: bold;" styleClass="label-style4" text="Nghi vấn"/>
+
+                    <HBox spacing="10">
+                        <Label styleClass="label-style3" text="Do/Does + S + V_inf?"/>
+                        <Label styleClass="label-style3" text="Am/is/are + S + O?"/>
+                    </HBox>
+                </VBox>
+                <Label style="-fx-font-weight: bold;" styleClass="label-style2" text="Cách dùng thì hiện tại đơn"/>
+                <Label styleClass="label-style3" text="Thì hiện tại đơn diễn tả một sự thật hiển nhiên, một chân lý."/>
+                <Label styleClass="label-style3"
+                       text="Thì hiện tại đơn diễn tả 1 hành động xảy ra thường xuyên, một thói quen ở hiện tại."/>
+                <Label styleClass="label-style3" text="Thì hiện tại đơn diễn tả một năng lực của con người."/>
+                <Label styleClass="label-style3"
+                       text="Ngoài ra, thì hiện tại đơn còn diễn tả một kế hoạch đã được sắp xếp trong tương lai, đặc biệt là trong việc di chuyển."/>
+
+                <Label style="-fx-font-weight: bold;" styleClass="label-style2"
+                       text="Dấu hiệu nhận biết thì hiện tại đơn"/>
+                <Label styleClass="label-style3" text="Trong câu có chứa các trạng từ chỉ tần suất như:"/>
+
+                <HBox spacing="10">
+                    <Label styleClass="label-style3" text="Every day / week / month…"/>
+                    <Label styleClass="label-style3" text="Mỗi ngày/ tuần/ tháng"/>
+                </HBox>
+
+                <HBox spacing="10">
+                    <Label styleClass="label-style3" text="Often, usually, frequently"/>
+                    <Label styleClass="label-style3" text="Thường"/>
+                </HBox>
+
+                <HBox spacing="10">
+                    <Label styleClass="label-style3" text="Sometimes, occasionally"/>
+                    <Label styleClass="label-style3" text="Thỉnh thoảng"/>
+                </HBox>
+
+                <HBox spacing="10">
+                    <Label styleClass="label-style3" text="Always, constantly"/>
+                    <Label styleClass="label-style3" text="Luôn luôn"/>
+                </HBox>
+
+                <HBox spacing="10">
+                    <Label styleClass="label-style3" text="Seldom, rarely"/>
+                    <Label styleClass="label-style3" text="Hiếm khi"/>
+                </HBox>
+                <Label styleClass="label-style1" text="Thì hiện tại tiếp diễn – Present Continuous"/>
+                <Label styleClass="label-style2" text="Khái niệm:"/>
+                <Label styleClass="label-style3"
+                       text="Thì hiện tại tiếp diễn (Present continuous tense) dùng để diễn tả những sự việc xảy ra ngay lúc chúng ta nói hay xung quanh thời điểm chúng ta nói, và hành động đó vẫn chưa chấm dứt (còn tiếp tục diễn ra)."/>
+                <Label styleClass="label-style2" text="Công thức thì hiện tại tiếp diễn:"/>
+                <Label styleClass="label-style3" text="Khẳng định: S + am/is/are + V_ing"/>
+                <Label styleClass="label-style3" text="Phủ định: S + am/is/are + not + V_ing"/>
+                <Label styleClass="label-style3" text="Nghi vấn: Am/Is/Are + S + V_ing?"/>
+                <Label styleClass="label-style2" text="Cách dùng thì hiện tại tiếp diễn:"/>
+                <Label styleClass="label-style3"
+                       text="- Diễn tả một hành động đang diễn ra và kéo dài tại một thời điểm ở hiện tại."/>
+                <Label styleClass="label-style3" text="- Thường tiếp theo sau mệnh lệnh, câu đề nghị."/>
+                <Label styleClass="label-style3"
+                       text="- Diễn tả một hành động xảy ra lặp đi lặp lại, dùng phó từ ALWAYS"/>
+                <Label styleClass="label-style3" text="- Diễn tả một hành động sắp xảy ra (ở trong tương lai gần)"/>
+                <Label styleClass="label-style2" text="Dấu hiệu nhận biết:"/>
+                <Label styleClass="label-style3" text="Trong câu có chứa các từ sau:"/>
+                <Label styleClass="label-style3" text="Now: bây giờ"/>
+                <Label styleClass="label-style3" text="Right now"/>
+                <Label styleClass="label-style3" text="Listen!: Nghe nào!"/>
+                <Label styleClass="label-style3" text="At the moment"/>
+                <Label styleClass="label-style3" text="At present"/>
+                <Label styleClass="label-style3" text="Look!: nhìn kìa"/>
+                <Label styleClass="label-style3" text="Watch out!: cẩn thận!"/>
+                <Label styleClass="label-style3" text="Be quiet!: Im lặng"/>
+                <Label styleClass="label-style3"
+                       text="Lưu ý: Không dùng thì này với các động từ chỉ nhận thức, tri giác như: be, understand (hiểu), know (biết), like (thích) ,want (muốn), see (nhìn), hear (nghe), glance (liếc qua), feel (cảm thấy), think (nghĩ), smell (ngửi), love (yêu), hate (ghét), realize (nhận ra), seem (dường như), remember (nhớ), forget (quên), etc."/>
+                <Label styleClass="label-style1" text="Thì hiện tại hoàn thành – Present Perfect"/>
+                <Label styleClass="label-style2" text="Khái niệm:"/>
+                <Label styleClass="label-style3"
+                       text="Thì hiện tại hoàn thành (Present perfect tense) dùng để diễn tả một hành động, sự việc đã bắt đầu từ trong quá khứ, kéo dài đến hiện tại và có thể tiếp tục tiếp diễn trong tương lai."/>
+                <Label styleClass="label-style2" text="Công thức thì hiện tại hoàn thành:"/>
+                <Label styleClass="label-style3" text="Khẳng định: S + have/has + V3/ed + O"/>
+                <Label styleClass="label-style3" text="Phủ định: S + have/has + not + V3/ed + O"/>
+                <Label styleClass="label-style3" text="Nghi vấn: Have/has + S + V3/ed + O?"/>
+                <Label styleClass="label-style2" text="Cách dùng thì hiện tại hoàn thành:"/>
+                <Label styleClass="label-style3"
+                       text="- Diễn tả hành động đã xảy ra hoặc chưa bao giờ xảy ra ở một thời gian không xác định trong quá khứ."/>
+                <Label styleClass="label-style3" text="- Diễn tả sự lặp đi lặp lại của một hành động trong quá khứ."/>
+                <Label styleClass="label-style3" text="- Được dùng với since và for."/>
+                <Label styleClass="label-style3"
+                       text="- Since + thời gian bắt đầu (1995, I was young, this morning etc.). Khi người nói dùng since, người nghe phải tính thời gian là bao lâu."/>
+                <Label styleClass="label-style3"
+                       text="- For + khoảng thời gian (từ lúc đầu tới bây giờ). Khi người nói dùng for, người nghe phải tính thời gian là bao lâu."/>
+                <Label styleClass="label-style2" text="Dấu hiệu nhận biết thì hiện tại hoàn thành:"/>
+                <Label styleClass="label-style3" text="Trong câu thường chứa các từ sau:"/>
+                <Label styleClass="label-style3" text="Just, recently, lately: gần đây, vừa mới"/>
+                <Label styleClass="label-style3" text="Already : đã….rồi , before: đã từng"/>
+                <Label styleClass="label-style3" text="Not….yet: chưa"/>
+                <Label styleClass="label-style3" text="Never, ever"/>
+                <Label styleClass="label-style3" text="Since, for"/>
+                <Label styleClass="label-style3" text="So far = until now = up to now: cho đến bây giờ"/>
+                <Label styleClass="label-style3" text="So sánh nhất"/>
+                <Label styleClass="label-style1" text="Thì hiện tại hoàn thành tiếp diễn – Present Perfect Continuous"/>
+                <Label styleClass="label-style2" text="4.1. Khái niệm"/>
+                <Label styleClass="label-style3"
+                       text="Thì hiện tại hoàn thành tiếp diễn (Present perfect continuous tense) là thì diễn tả sự việc bắt đầu trong quá khứ và tiếp tục ở hiện tại có thể tiếp diễn ở tương lai sự việc đã kết thúc nhưng ảnh hưởng kết quả còn lưu lại hiện tại."/>
+                <Label styleClass="label-style2" text="4.2. Công thức thì hiện tại hoàn thành tiếp diễn"/>
+                <Label styleClass="label-style3" text="Khẳng định: S + have/has + been + V_ing"/>
+                <Label styleClass="label-style3" text="Phủ định: S + have/has + not + been + V_ing"/>
+                <Label styleClass="label-style3" text="Nghi vấn: Has/ Have + S + been+ V_ing?"/>
+                <Label styleClass="label-style2" text="4.3. Cách dùng thì hiện tại hoàn thành tiếp diễn"/>
+                <Label styleClass="label-style3"
+                       text="Dùng để nhấn mạnh tính liên tục của một sự việc bắt đầu từ quá khứ và tiếp diễn đến hiện tại."/>
+                <Label styleClass="label-style3"
+                       text="Diễn tả hành động vừa kết thúc với mục đích nêu lên tác dụng và kết quả của hành động ấy."/>
+                <Label styleClass="label-style2" text="4.4. Dấu hiệu nhận biết thì hiện tại hoàn thành tiếp diễn"/>
+                <Label styleClass="label-style3" text="Các từ để nhận biết:"/>
+                <Label styleClass="label-style3" text="All day, all week, all month: cả ngày/ tuần/tháng"/>
+                <Label styleClass="label-style3" text="Since, for"/>
+
+                <Label styleClass="label-style1" text="5. Thì quá khứ đơn– Simple Past"/>
+                <Label styleClass="label-style2" text="5.1. Khái niệm"/>
+                <Label styleClass="label-style3"
+                       text="Thì quá khứ đơn (Past simple tense) dùng để diễn tả một hành động, sự việc diễn ra và kết thúc trong quá khứ."/>
+                <Label styleClass="label-style2" text="5.2. Công thức thì quá khứ đơn"/>
+                <Label styleClass="label-style4" text="Loại câu"/>
+                <Label styleClass="label-style3" text="Đối với động từ thường: S + V2/ed + O"/>
+                <Label styleClass="label-style3" text="Đối với động từ “to be”: S + was/were + O"/>
+                <Label styleClass="label-style3" text="Phủ định: S + didn’t + V_inf + O"/>
+                <Label styleClass="label-style3" text="Nghi vấn: Did + S + V_inf + O?"/>
+                <Label styleClass="label-style2" text="5.3. Cách dùng thì quá khứ đơn"/>
+                <Label styleClass="label-style3" text="Diễn tả hành động đã xảy ra và chấm dứt trong quá khứ."/>
+                <Label styleClass="label-style3" text="Diễn tả thói quen trong quá khứ."/>
+                <Label styleClass="label-style3" text="Diễn tả chuỗi hành động xảy ra liên tiếp."/>
+                <Label styleClass="label-style3" text="Dùng trong câu điều kiện loại 2."/>
+                <Label styleClass="label-style2" text="5.4. Dấu hiệu nhận biết thì quá khứ đơn"/>
+                <Label styleClass="label-style3" text="Các từ thường xuất hiện:"/>
+                <Label styleClass="label-style3" text="Ago: cách đây…"/>
+                <Label styleClass="label-style3" text="In…"/>
+                <Label styleClass="label-style3" text="Yesterday: ngày hôm qua"/>
+                <Label styleClass="label-style3" text="Last night/month…: tối qua, tháng trước"/>
+
+                <Label styleClass="label-style1" text="6. Thì quá khứ tiếp diễn – Past Continuous"/>
+                <Label styleClass="label-style2" text="6.1. Khái niệm"/>
+                <Label styleClass="label-style3"
+                       text="Thì quá khứ tiếp diễn (Past continuous tense) dùng để diễn tả một hành động, sự việc đang diễn ra xung quanh một thời điểm trong quá khứ."/>
+                <Label styleClass="label-style2" text="6.2. Công thức thì quá khứ tiếp diễn"/>
+                <Label styleClass="label-style3" text="Khẳng định: S + was/were + V_ing + O"/>
+                <Label styleClass="label-style3" text="Phủ định: S + was/were + not + V_ing + O"/>
+                <Label styleClass="label-style3" text="Nghi vấn: Was/were + S + V_ing + O?"/>
+                <Label styleClass="label-style2" text="6.3. Cách dùng thì quá khứ tiếp diễn"/>
+                <Label styleClass="label-style3"
+                       text="Diễn tả hành động đang xảy ra tại một thời điểm xác định trong quá khứ."/>
+                <Label styleClass="label-style3"
+                       text="Diễn tả một hành động đang xảy ra trong quá khứ thì một hành động khác xen vào (hành động xen vào thường được chia ở quá khứ đơn)."/>
+                <Label styleClass="label-style3" text="Diễn tả những hành động xảy ra song song với nhau."/>
+                <Label styleClass="label-style2" text="6.4. Dấu hiệu nhận biết thì quá khứ tiếp diễn"/>
+                <Label styleClass="label-style3" text="Trong câu xuất hiện các từ:"/>
+                <Label styleClass="label-style3" text="At 5pm last Sunday"/>
+                <Label styleClass="label-style3" text="At this time last night"/>
+                <Label styleClass="label-style3" text="When/ while/ as"/>
+                <Label styleClass="label-style3" text="From 4pm to 9pm…"/>
+
+                <Label styleClass="label-style1" text="7. Thì quá khứ hoàn thành – Past Perfect"/>
+                <Label styleClass="label-style2" text="7.1. Khái niệm"/>
+                <Label styleClass="label-style3"
+                       text="Thì quá khứ hoàn thành (Past perfect tense) dùng để diễn tả một hành động xảy ra trước một hành động khác trong quá khứ. Hành động nào xảy ra trước thì dùng thì quá khứ hoàn thành. Hành động xảy ra sau thì dùng thì quá khứ đơn."/>
+                <Label styleClass="label-style2" text="7.2. Công thức thì quá khứ hoàn thành"/>
+                <Label styleClass="label-style3" text="S + had + V3/ed + O"/>
+                <Label styleClass="label-style2" text="7.3. Cách dùng thì quá khứ hoàn thành"/>
+                <Label styleClass="label-style3"
+                       text="Diễn tả một hành động đã xảy ra trước một hành động khác trong quá khứ."/>
+                <Label styleClass="label-style3"
+                       text="Diễn tả hành động đã hoàn thành trước một thời điểm xác định trong quá khứ."/>
+                <Label styleClass="label-style2" text="7.4. Dấu hiệu nhận biết thì quá khứ hoàn thành"/>
+                <Label styleClass="label-style3" text="Trong câu xuất hiện các từ:"/>
+                <Label styleClass="label-style3" text="By the time + S + V2/ed, S + had + V3/ed"/>
+                <Label styleClass="label-style3" text="Before + S + V2/ed, S + had + V3/ed"/>
+            </VBox>
+
+        </ScrollPane>
+        <!--            <Region styleClass="scrollpane-overlay" />-->
+
+        <!--        </StackPane>-->
+
+
+    </VBox>
+
+
+</HBox>

@@ -1,0 +1,41 @@
+.root  {
+    -fx-background-image: url('../img/Viewgame.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    }
+
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+
+.wordLabel, .resultLabel, .timeLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.wordLabel {
+    -fx-font-size: 40px;
+
+}
+.radioButton {
+    -fx-font-size: 30px;
+}
+
+.checkButton {
+    -fx-background-color: #7892c2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+}
+
+.checkButton:hover {
+    -fx-background-color: #425990;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+}
+

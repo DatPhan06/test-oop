@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="800" prefWidth="1280.0" stylesheets="@../../../graphic/css/scene3.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.myjavafxapp.controller.Scene3Controller">
+
+    <VBox id="taskbar" prefHeight="800.0" prefWidth="255.0" spacing="10">
+        <Pane prefHeight="182.0" prefWidth="200.0"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene1" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Home">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="161.0" onAction="#switchToScene2" prefHeight="50.0" prefWidth="247.0"
+                styleClass="class-button" text="Search">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="120.0" prefHeight="50.0" prefWidth="250.0" styleClass="class-button-color"
+                text="Translate">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="200.0" onAction="#switchToScene4" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Game">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Pane prefHeight="88.0" prefWidth="255.0"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene5" prefHeight="52.0" prefWidth="254.0"
+                styleClass="class-button" text="Grammar"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene6" prefHeight="43.0" prefWidth="254.0"
+                styleClass="class-button" text="Vocabulary"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene7" prefHeight="50.0" prefWidth="233.0"
+                styleClass="class-button" text="Help"/>
+        <Button mnemonicParsing="false" onAction="#showExitConfirmation" prefHeight="34.0" prefWidth="236.0" styleClass="class-button" text="Exit "/>
+    </VBox>
+    <Pane prefHeight="800.0" prefWidth="35.0"/>
+    <VBox prefHeight="200.0" prefWidth="900.0">
+        <children>
+            <Pane prefHeight="212.0" prefWidth="650.0">
+                <children>
+
+                    <TextField fx:id="searchField" alignment="CENTER" layoutX="6.0" layoutY="161.0" prefHeight="40.0"
+                               prefWidth="190.0" style="-fx-background-radius: 20;" text="Nhận diện ngôn ngữ"/>
+                    <Button layoutX="773.0" layoutY="161.0" mnemonicParsing="false" onAction="#translateButtonAction"
+                            prefHeight="40.0" prefWidth="120.0" text="Translate" textFill="#e50b0b">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                        <styleClass>
+                            <String fx:value="class-button-typical"/>
+                            <String fx:value="color-changing-button"/>
+                        </styleClass>
+                    </Button>
+                </children>
+            </Pane>
+            <TextArea fx:id="inputTextArea" prefHeight="231.0" prefWidth="650.0" style="-fx-background-radius: 10;"/>
+            <Pane prefHeight="90.0" prefWidth="650.0">
+                <children>
+                    <Button onAction="#SpeechAction" layoutX="769.0" layoutY="29.0" mnemonicParsing="false"
+                            prefHeight="40.0" prefWidth="120.0" text="Speech" textFill="#c71792">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                        <styleClass>
+                            <String fx:value="class-button-typical"/>
+                            <String fx:value="color-changing-button"/>
+                        </styleClass>
+                    </Button>
+                    <!--                    <TextField fx:id="searchField1" alignment="CENTER" layoutX="6.0" layoutY="42.0" prefHeight="39.0"-->
+                    <!--                               prefWidth="120.0" promptText="Language 2" style="-fx-background-radius: 10;"/>-->
+                    <ChoiceBox fx:id="yourChoiceBox" layoutX="6.0" layoutY="32.0" prefHeight="40.0" prefWidth="203.0"
+                               style="-fx-background-radius: 20;">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Afrikaans af"/>
+                                <String fx:value="Albanian sq"/>
+                                <String fx:value="Amharic am"/>
+                                <String fx:value="Arabic ar"/>
+                                <String fx:value="Armenian hy"/>
+                                <String fx:value="Azerbaijani az"/>
+                                <String fx:value="Basque eu"/>
+                                <String fx:value="Belarusian be"/>
+                                <String fx:value="Bengali bn"/>
+                                <String fx:value="Bosnian bs"/>
+                                <String fx:value="Bulgarian bg"/>
+                                <String fx:value="Catalan ca"/>
+                                <String fx:value="Cebuano ceb"/>
+                                <String fx:value="Chinese zh"/>
+                                <String fx:value="Corsican co"/>
+                                <String fx:value="Croatian hr"/>
+                                <String fx:value="Czech cs"/>
+                                <String fx:value="Danish da"/>
+                                <String fx:value="Dutch nl"/>
+                                <String fx:value="English en"/>
+                                <String fx:value="Esperanto eo"/>
+                                <String fx:value="Estonian et"/>
+                                <String fx:value="Finnish fi"/>
+                                <String fx:value="French fr"/>
+                                <String fx:value="Frisian fy"/>
+                                <String fx:value="Galician gl"/>
+                                <String fx:value="Georgian ka"/>
+                                <String fx:value="German de"/>
+                                <String fx:value="Greek el"/>
+                                <String fx:value="Gujarati gu"/>
+                                <String fx:value="Hausa ha"/>
+                                <String fx:value="Hawaiian haw"/>
+                                <String fx:value="Hebrew he"/>
+                                <String fx:value="Hindi hi"/>
+                                <String fx:value="Hmong hmn"/>
+                                <String fx:value="Hungarian hu"/>
+                                <String fx:value="Icelandic is"/>
+                                <String fx:value="Igbo ig"/>
+                                <String fx:value="Indonesian id"/>
+                                <String fx:value="Irish ga"/>
+                                <String fx:value="Italian it"/>
+                                <String fx:value="Japanese ja"/>
+                                <String fx:value="Javanese jv"/>
+                                <String fx:value="Kannadakn kk"/>
+                                <String fx:value="Kazakh km"/>
+                                <String fx:value="Khmer km"/>
+                                <String fx:value="Kinyarwanda rw"/>
+                                <String fx:value="Korean ko"/>
+                                <String fx:value="Kurdish ku"/>
+                                <String fx:value="Kyrgyz ky"/>
+                                <String fx:value="Lao lo"/>
+                                <String fx:value="Latvian lv"/>
+                                <String fx:value="Lithuanian lt"/>
+                                <String fx:value="Luxembourgish lb"/>
+                                <String fx:value="Macedonian mk"/>
+                                <String fx:value="Malay ms"/>
+                                <String fx:value="Malayalam ml"/>
+                                <String fx:value="Maltese mt"/>
+                                <String fx:value="Maori mi"/>
+                                <String fx:value="Marathi mr"/>
+                                <String fx:value="Mongolian mn"/>
+                                <String fx:value="Myanmar my"/>
+                                <String fx:value="Nepali ne"/>
+                                <String fx:value="Norwegian no"/>
+                                <String fx:value="Nyanja ny"/>
+                                <String fx:value="Odia or"/>
+                                <String fx:value="Pashto ps"/>
+                                <String fx:value="Persian fa"/>
+                                <String fx:value="Polish pl"/>
+                                <String fx:value="Portuguese pt"/>
+                                <String fx:value="Punjabi pa"/>
+                                <String fx:value="Romanian ro"/>
+                                <String fx:value="Russian ru"/>
+                                <String fx:value="Samoan sm"/>
+                                <String fx:value="Serbian sr"/>
+                                <String fx:value="Sesotho st"/>
+                                <String fx:value="Shona sn"/>
+                                <String fx:value="Sindhi sd"/>
+                                <String fx:value="Sinhala si"/>
+                                <String fx:value="Slovak sk"/>
+                                <String fx:value="Slovenian sl"/>
+                                <String fx:value="Somali so"/>
+                                <String fx:value="Spanish es"/>
+                                <String fx:value="Sundanese su"/>
+                                <String fx:value="Swahili sw"/>
+                                <String fx:value="Swedish sv"/>
+                                <String fx:value="Tagalog tl"/>
+                                <String fx:value="Tajik tg"/>
+                                <String fx:value="Tamil ta"/>
+                                <String fx:value="Tatar tt"/>
+                                <String fx:value="Telugu te"/>
+                                <String fx:value="Thai th"/>
+                                <String fx:value="Turkish tr"/>
+                                <String fx:value="Turkmen tk"/>
+                                <String fx:value="Ukrainian uk"/>
+                                <String fx:value="Urdu ur"/>
+                                <String fx:value="Uyghur ug"/>
+                                <String fx:value="Uzbek uz"/>
+                                <String fx:value="Vietnamese vi"/>
+                                <String fx:value="Welsh cy"/>
+                                <String fx:value="Xhosa xh"/>
+                                <String fx:value="Yiddish yi"/>
+                                <String fx:value="Yoruba yo"/>
+                                <String fx:value="Zulu zu"/>
+
+                                <!-- Add more options as needed -->
+                            </FXCollections>
+                        </items>
+                    </ChoiceBox>
+                </children>
+            </Pane>
+            <TextArea fx:id="resultTextArea" prefHeight="252.0" prefWidth="650.0"/>
+            <Pane prefHeight="26.0" prefWidth="650.0"/>
+        </children>
+    </VBox>
+
+</HBox>

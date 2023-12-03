@@ -1,0 +1,60 @@
+.root {
+    -fx-background-image: url('../img/BackTranslate.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+
+#searchField {
+    -fx-font-weight: bold;
+    -fx-read-only: true;
+    -fx-focus-traversable: false;
+}
+
+#inputTextArea {
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-control-inner-background: #7F528B;
+    -fx-font-size: 40px;
+    -fx-text-fill: #FFFFFF;
+    /*-fx-max-width: 650.0;*/
+    -fx-wrap-text: true; /* Cho phép tự động xuống dòng */
+}
+
+#resultTextArea {
+    -fx-font-weight: bold;
+    -fx-border-width: 2;
+    -fx-control-inner-background: #7F528B;
+    -fx-font-size: 40px;
+    -fx-text-fill: #FFFFFF;
+    /*-fx-max-width: 650.0;*/
+    -fx-wrap-text: true; /* Cho phép tự động xuống dòng */
+}
+
+.class-button-color {
+ -fx-font-size: 14px;
+ -fx-text-fill: #ae0f9f
+ }
+
+.class-button {
+  -fx-font-size: 14px;
+  -fx-text-fill: #f4efef
+  }
+
+ .class-button-typical {
+  -fx-background-color: #8B409F;
+  -fx-background-radius: 20;
+  -fx-padding : 5px 10px;
+  -fx-font-size: 20px;
+  -fx-text-fill: #f4efef
+}
+
+.color-changing-button:pressed {
+  -fx-background-color: #490F59;
+}

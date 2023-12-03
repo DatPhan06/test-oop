@@ -1,0 +1,82 @@
+/*@font-face {*/
+/*    font-family: 'Poppins-Bold';*/
+/*    src: url('../font/Playpen_Sans,Poppins/Poppins/Poppins-Bold.ttf');*/
+/*}*/
+
+.root {
+    -fx-background-image: url('../img/backchung.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#resultArea {
+    -fx-font-weight: bold;
+    -fx-border-width: 0;
+    -fx-control-inner-background: #7F528B;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#wordTargetArea {
+    /*-fx-font-family: 'Poppins-Bold';*/
+    -fx-font-weight: bold;
+    -fx-border-width: 0;
+    -fx-control-inner-background: #7F528B;
+    -fx-font-size: 40px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#tab {
+    -fx-border-width: 0;
+    -fx-control-inner-background: #7F528B;
+
+}
+#wordSoundArea {
+    -fx-border-width: 0;
+    -fx-control-inner-background: #7F528B;
+    -fx-font-size: 23px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-style: italic;
+}
+
+.text-area {
+    -fx-control-inner-background: #7F528B;
+    /*-fx-text-fill: #FFFFFF;*/
+    /*-fx-control-inner-background: black;*/
+}
+
+.transparent-text-area .text-area {
+    -fx-control-inner-background: red;
+}
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+
+.class-button-color {
+ -fx-font-size: 14px;
+ -fx-text-fill: #ae0f9f
+ }
+
+.class-vbox-color {
+  -fx-background-color: #8B409F;
+ }
+
+ .class-button {
+  -fx-font-size: 14px;
+  -fx-text-fill: #f4efef
+  }
+
+ .class-button-typical {
+  -fx-background-color: #8B409F;
+  -fx-background-radius: 20;
+  -fx-padding : 5px 10px;
+  -fx-font-size: 20px;
+  -fx-text-fill: #f4efef;
+}
+.color-changing-button:pressed {
+  -fx-background-color: #490F59;
+}

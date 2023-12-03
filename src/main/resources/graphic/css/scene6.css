@@ -1,0 +1,57 @@
+.root {
+    -fx-background-image: url('../img/BackTK2.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.class-btn {
+ -fx-background-color: transparent;
+}
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+.class-button-color {
+ -fx-font-size: 14px;
+ -fx-text-fill: #ae0f9f
+ }
+.class-button {
+ -fx-font-size: 14px;
+ -fx-text-fill: #f4efef
+ }
+ .color-changing-button:pressed {
+   -fx-background-color: #490F59;
+ }
+ .label-style1 {
+     -fx-text-fill: #8B409F;
+     -fx-font-weight: bold;
+     -fx-font-size: 20px; /* Kích thước chữ 20px */
+ }
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.scrollpane-overlay {
+    -fx-background-color: rgba(1, 0, 0, 50); /* Màu nền tuỳ chọn với độ mờ */
+    /*-fx-background-color: #8B409F;*/
+}
+
+.label-style2 {
+    -fx-text-fill: black; /* Màu trắng */
+    -fx-font-weight: bold; /* Chữ im đạm */
+    -fx-font-size: 16px; /* Kích thước chữ 16px */
+}
+.label-style3 {
+    -fx-text-fill: black; /*#FFFFFF Màu trắng */
+    -fx-font-size: 13px; /* Kích thước chữ 16px */
+}
+.label-style4 {
+    -fx-text-fill: black; /* Màu trắng */
+    -fx-font-weight: bold; /* Chữ im đạm */
+    -fx-font-size: 13px; /* Kích thước chữ 16px */
+}

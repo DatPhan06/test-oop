@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.myjavafxapp.sqlite.CSVToDatabase</OriginalElement>
+  <nodes>
+    <node x="42.70833333333326" y="-333.0">com.example.myjavafxapp.model.Word</node>
+    <node x="91.83333333333326" y="325.0">com.example.myjavafxapp.util.DictionaryManagement</node>
+    <node x="1902.3584449404661" y="2553.0">com.example.myjavafxapp.sqlite.CSVToDatabase</node>
+    <node x="2328.694475446425" y="2542.0">com.example.myjavafxapp.translator.CreateToken</node>
+    <node x="1429.3584449404661" y="2517.0">com.example.myjavafxapp.sqlite.DatabaseManager</node>
+    <node x="3637.4542410714225" y="5266.0">com.example.myjavafxapp.controller.Scene5Controller</node>
+    <node x="3297.9458705357106" y="2397.0">com.example.myjavafxapp.controller.Scene7Controller</node>
+    <node x="488.0" y="780.0">com.example.myjavafxapp.model.WordGame</node>
+    <node x="181.0" y="2074.0">com.example.myjavafxapp.speechAPI.getVoice</node>
+    <node x="866.0" y="864.0">com.example.myjavafxapp.model.Game</node>
+    <node x="1003.6639694940413" y="4352.0">com.example.myjavafxapp.controller.Scene3Controller</node>
+    <node x="2600.444475446425" y="3375.0">com.example.myjavafxapp.translator.UrlToText</node>
+    <node x="209.0" y="2565.0">com.example.myjavafxapp.speechAPI.SpeechAPI</node>
+    <node x="2708.0792410714225" y="4056.0">com.example.myjavafxapp.translator.Translate</node>
+    <node x="-222.0" y="816.0">com.example.myjavafxapp.model.DictionaryCommandLine</node>
+    <node x="668.8584449404661" y="5363.0">com.example.myjavafxapp.DictionaryApplication</node>
+    <node x="193.83333333333348" y="132.0">com.example.myjavafxapp.model.Dictionary</node>
+    <node x="1728.75" y="2123.0">com.example.myjavafxapp.sqlite.SQLiteConnector</node>
+    <node x="2804.444475446425" y="3362.0">com.example.myjavafxapp.translator.GoogleTranslate</node>
+    <node x="1522.0" y="1233.0">com.example.myjavafxapp.controller.WordGameController</node>
+    <node x="2591.416666666667" y="2002.0">com.example.myjavafxapp.controller.Scene4Controller</node>
+    <node x="3579.666666666667" y="4901.0">com.example.myjavafxapp.controller.Scene1Controller</node>
+    <node x="1522.0" y="864.0">com.example.myjavafxapp.controller.ResultController</node>
+    <node x="1711.5806361607083" y="2942.0">com.example.myjavafxapp.controller.Scene2Controller</node>
+    <node x="2678.916666666667" y="433.0">com.example.myjavafxapp.controller.DictionaryController</node>
+    <node x="3362.916666666667" y="3971.0">com.example.myjavafxapp.controller.Scene6Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.myjavafxapp.speechAPI.SpeechAPI" target="com.example.myjavafxapp.speechAPI.getVoice" relationship="CREATE">
+      <point x="-0.0" y="-57.5" />
+      <point x="-0.0" y="93.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.speechAPI.SpeechAPI" relationship="CREATE">
+      <point x="-135.49996949404135" y="-0.0" />
+      <point x="943.0" y="4589.5" />
+      <point x="943.0" y="2622.5" />
+      <point x="105.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="15.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="128.54575892857747" y="-153.5" />
+      <point x="3900.0" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="15.0" />
+      <point x="3651.0" y="4139.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="3.0505958648063825E-5" y="237.5" />
+      <point x="1139.164" y="4853.0" />
+      <point x="3274.0" y="4853.0" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="-133.99966666666705" y="15.0" />
+      <point x="3228.0" y="5057.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="-133.99987053571067" y="-0.0" />
+      <point x="3205.0" y="2622.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="221.5" y="-0.0" />
+      <point x="2281.194" y="3419.5" />
+      <point x="2281.194" y="1984.5" />
+      <point x="3692.0" y="1984.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.sqlite.DatabaseManager" target="com.example.myjavafxapp.sqlite.SQLiteConnector" relationship="DEPENDENCY">
+      <point x="216.4995550595338" y="-0.0" />
+      <point x="1882.0" y="2622.5" />
+      <point x="1882.0" y="2493.0" />
+      <point x="1825.75" y="2493.0" />
+      <point x="-0.0" y="44.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="67.0" y="-165.5" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.DictionaryCommandLine" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="CREATE">
+      <point x="-0.0" y="153.5" />
+      <point x="-36.5" y="1185.0" />
+      <point x="265.333" y="1185.0" />
+      <point x="14.99966666666677" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.util.DictionaryManagement" target="com.example.myjavafxapp.model.Word" relationship="CREATE">
+      <point x="-95.125" y="-165.5" />
+      <point x="-0.0" y="201.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.ResultController" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-105.5" />
+      <point x="1674.5" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Game" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="DEPENDENCY">
+      <point x="-0.0" y="-105.5" />
+      <point x="1013.5" y="707.0" />
+      <point x="250.333" y="707.0" />
+      <point x="-3.333333332591337E-4" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.speechAPI.SpeechAPI" relationship="CREATE">
+      <point x="-221.4996361607084" y="-0.0" />
+      <point x="943.0" y="3419.5" />
+      <point x="943.0" y="2622.5" />
+      <point x="105.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="DEPENDENCY">
+      <point x="-221.4996361607084" y="-15.0" />
+      <point x="1240.196" y="3404.5" />
+      <point x="1240.196" y="707.0" />
+      <point x="250.333" y="707.0" />
+      <point x="-3.333333332591337E-4" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.DictionaryApplication" target="com.example.myjavafxapp.speechAPI.SpeechAPI" relationship="CREATE">
+      <point x="107.4995550595338" y="15.0" />
+      <point x="943.0" y="5434.5" />
+      <point x="943.0" y="2622.5" />
+      <point x="105.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="67.0" y="-153.5" />
+      <point x="3838.454241071422" y="5245.0" />
+      <point x="3954.291666666667" y="5245.0" />
+      <point x="3954.291666666667" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.DictionaryApplication" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="DEPENDENCY">
+      <point x="-107.5" y="-0.0" />
+      <point x="141.5" y="5419.5" />
+      <point x="141.5" y="1775.5" />
+      <point x="449.0" y="1775.5" />
+      <point x="449.0" y="707.0" />
+      <point x="250.333" y="707.0" />
+      <point x="-3.333333332591337E-4" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="15.000333333332946" y="-141.5" />
+      <point x="3728.667" y="4343.0" />
+      <point x="3692.0" y="4343.0" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="-14.999636160708405" y="477.5" />
+      <point x="1918.081" y="4853.0" />
+      <point x="3274.0" y="4853.0" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="-133.99966666666705" y="-0.0" />
+      <point x="3205.0" y="4124.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-30.0" />
+      <point x="3672.0" y="2137.5" />
+      <point x="3672.0" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="133.99975892857765" y="-0.0" />
+      <point x="3969.292" y="5419.5" />
+      <point x="3969.292" y="2122.5" />
+      <point x="3651.0" y="2122.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="71.03203050595857" y="-237.5" />
+      <point x="1210.196" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Game" target="com.example.myjavafxapp.model.Game" relationship="DEPENDENCY">
+      <point x="-137.5" y="-105.5" />
+      <point x="876.0" y="758.5" />
+      <point x="866.0" y="758.5" />
+      <point x="-147.5" y="-105.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="-133.99987053571067" y="-30.0" />
+      <point x="3228.0" y="2592.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="-134.0" y="15.0" />
+      <point x="3274.0" y="5434.5" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="135.5" y="15.0" />
+      <point x="3228.0" y="4604.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="3.333333329464949E-4" y="153.5" />
+      <point x="3496.917" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-60.0" />
+      <point x="3692.0" y="2107.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-0.0" />
+      <point x="3672.0" y="2622.5" />
+      <point x="3672.0" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.DictionaryCommandLine" target="com.example.myjavafxapp.model.DictionaryCommandLine" relationship="CREATE">
+      <point x="-15.0" y="-153.5" />
+      <point x="-51.5" y="62.5" />
+      <point x="-239.5" y="62.5" />
+      <point x="-239.5" y="969.5" />
+      <point x="-185.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.model.WordGame" relationship="CREATE">
+      <point x="-156.0" y="-15.0" />
+      <point x="651.3584449404661" y="1575.5" />
+      <point x="-5.641555059533857" y="189.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="CREATE">
+      <point x="-0.0" y="-357.5" />
+      <point x="1678.0" y="1185.0" />
+      <point x="265.333" y="1185.0" />
+      <point x="14.99966666666677" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.sqlite.DatabaseManager" relationship="DEPENDENCY">
+      <point x="-221.4996361607084" y="15.0" />
+      <point x="1352.0" y="3434.5" />
+      <point x="1352.0" y="2622.5" />
+      <point x="-216.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Game" target="com.example.myjavafxapp.model.Word" relationship="TO_MANY">
+      <point x="-147.5" y="-0.0" />
+      <point x="846.0" y="969.5" />
+      <point x="846.0" y="1605.5" />
+      <point x="464.0" y="1605.5" />
+      <point x="464.0" y="-131.5" />
+      <point x="112.49966666666677" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.sqlite.CSVToDatabase" target="com.example.myjavafxapp.sqlite.CSVToDatabase" relationship="DEPENDENCY">
+      <point x="-2.1111421130913186" y="69.5" />
+      <point x="2065.747302827375" y="2745.5" />
+      <point x="1882.0" y="2745.5" />
+      <point x="1882.0" y="2637.5" />
+      <point x="-165.5" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="147.66666666666652" y="-477.5" />
+      <point x="2080.747302827375" y="2900.0" />
+      <point x="2243.858444940466" y="2900.0" />
+      <point x="2243.858444940466" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Game" target="com.example.myjavafxapp.model.Dictionary" relationship="DEPENDENCY">
+      <point x="-147.5" y="-23.0" />
+      <point x="846.0" y="946.5" />
+      <point x="846.0" y="216.5" />
+      <point x="123.49966666666654" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.controller.ResultController" relationship="DEPENDENCY">
+      <point x="15.0" y="-357.5" />
+      <point x="18.5" y="105.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.controller.WordGameController" relationship="DEPENDENCY">
+      <point x="-0.0" y="357.5" />
+      <point x="1678.0" y="1966.0" />
+      <point x="1678.0" y="1966.0" />
+      <point x="-0.0" y="357.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.translator.GoogleTranslate" target="com.example.myjavafxapp.translator.CreateToken" relationship="DEPENDENCY">
+      <point x="-4.754464248435397E-4" y="-57.5" />
+      <point x="2958.444" y="3032.0" />
+      <point x="2435.694" y="3032.0" />
+      <point x="-4.754464248435397E-4" y="80.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.util.DictionaryManagement" target="com.example.myjavafxapp.model.Dictionary" relationship="CREATE">
+      <point x="67.00000000000023" y="-165.5" />
+      <point x="-0.0" y="69.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.translator.Translate" relationship="DEPENDENCY">
+      <point x="-14.999969494041352" y="-237.5" />
+      <point x="1124.164" y="4248.0" />
+      <point x="2853.579" y="4248.0" />
+      <point x="-2.4107142235152423E-4" y="68.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.sqlite.CSVToDatabase" target="com.example.myjavafxapp.sqlite.SQLiteConnector" relationship="DEPENDENCY">
+      <point x="-165.5" y="-0.0" />
+      <point x="1882.0" y="2622.5" />
+      <point x="1882.0" y="2493.0" />
+      <point x="1825.75" y="2493.0" />
+      <point x="-0.0" y="44.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.DictionaryCommandLine" target="com.example.myjavafxapp.model.Dictionary" relationship="DEPENDENCY">
+      <point x="-0.0" y="-153.5" />
+      <point x="-36.5" y="722.0" />
+      <point x="846.0" y="722.0" />
+      <point x="846.0" y="216.5" />
+      <point x="123.49966666666654" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.translator.Translate" target="com.example.myjavafxapp.translator.GoogleTranslate" relationship="DEPENDENCY">
+      <point x="104.86523437500227" y="-68.5" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="67.0" y="-225.5" />
+      <point x="3498.9458705357106" y="2365.0" />
+      <point x="3922.791666666667" y="2365.0" />
+      <point x="3922.791666666667" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.WordGame" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="TO_ONE">
+      <point x="-169.0" y="-0.0" />
+      <point x="280.333" y="969.5" />
+      <point x="280.333" y="783.0" />
+      <point x="235.333" y="783.0" />
+      <point x="-15.00033333333326" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.WordGame" target="com.example.myjavafxapp.model.Dictionary" relationship="DEPENDENCY">
+      <point x="169.0" y="-23.0" />
+      <point x="846.0" y="946.5" />
+      <point x="846.0" y="216.5" />
+      <point x="123.49966666666654" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.DictionaryCommandLine" target="com.example.myjavafxapp.util.DictionaryManagement" relationship="TO_ONE">
+      <point x="146.5" y="-153.5" />
+      <point x="110.0" y="783.0" />
+      <point x="235.333" y="783.0" />
+      <point x="-15.00033333333326" y="165.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="-134.0" y="30.0" />
+      <point x="3228.0" y="5449.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.DictionaryApplication" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="107.4995550595338" y="-0.0" />
+      <point x="3205.0" y="5419.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="-133.99987053571067" y="-15.0" />
+      <point x="3274.0" y="2607.5" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-15.0" />
+      <point x="3692.0" y="4109.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-0.0" />
+      <point x="3205.0" y="2167.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="-133.99966666666705" y="-0.0" />
+      <point x="3251.0" y="5042.5" />
+      <point x="3251.0" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="135.5" y="-15.0" />
+      <point x="3651.0" y="4574.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="15.000363839291595" y="477.5" />
+      <point x="1948.081" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="67.0" y="-141.5" />
+      <point x="3780.666666666667" y="4879.0" />
+      <point x="3943.791666666667" y="4879.0" />
+      <point x="3943.791666666667" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.speechAPI.SpeechAPI" target="com.example.myjavafxapp.speechAPI.getVoice" relationship="TO_ONE">
+      <point x="-15.0" y="-57.5" />
+      <point x="-15.0" y="93.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.model.Word" relationship="DEPENDENCY">
+      <point x="-221.4996361607084" y="30.0" />
+      <point x="165.0" y="3449.5" />
+      <point x="165.0" y="707.0" />
+      <point x="74.333" y="707.0" />
+      <point x="-80.87533333333326" y="201.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Dictionary" target="com.example.myjavafxapp.model.Word" relationship="TO_MANY">
+      <point x="123.49966666666654" y="-0.0" />
+      <point x="464.0" y="201.5" />
+      <point x="464.0" y="-131.5" />
+      <point x="112.49966666666677" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-15.0" />
+      <point x="3692.0" y="2607.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="-133.99966666666705" y="-15.0" />
+      <point x="3228.0" y="4109.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="-133.99987053571067" y="15.0" />
+      <point x="3251.0" y="2637.5" />
+      <point x="3251.0" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="133.99975892857765" y="15.0" />
+      <point x="3984.292" y="5434.5" />
+      <point x="3984.292" y="2107.5" />
+      <point x="3692.0" y="2107.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="30.0" />
+      <point x="3228.0" y="2197.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="-133.99966666666705" y="15.0" />
+      <point x="3274.0" y="4139.5" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.WordGame" target="com.example.myjavafxapp.model.Word" relationship="TO_MANY">
+      <point x="169.0" y="-0.0" />
+      <point x="846.0" y="969.5" />
+      <point x="846.0" y="1605.5" />
+      <point x="464.0" y="1605.5" />
+      <point x="464.0" y="-131.5" />
+      <point x="112.49966666666677" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="-14.999666666667054" y="-141.5" />
+      <point x="3698.667" y="4879.0" />
+      <point x="3672.0" y="4879.0" />
+      <point x="3672.0" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="135.5" y="-0.0" />
+      <point x="3205.0" y="4589.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="221.5" y="383.0" />
+      <point x="3651.0" y="3802.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.translator.CreateToken" target="com.example.myjavafxapp.translator.CreateToken" relationship="DEPENDENCY">
+      <point x="-4.754464248435397E-4" y="80.5" />
+      <point x="2435.694" y="3032.0" />
+      <point x="2435.694" y="3032.0" />
+      <point x="-4.754464248435397E-4" y="80.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="117.0" y="-357.5" />
+      <point x="1795.0" y="1211.0" />
+      <point x="1837.5" y="1211.0" />
+      <point x="1837.5" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.DictionaryCommandLine" target="com.example.myjavafxapp.model.Word" relationship="DEPENDENCY">
+      <point x="185.5" y="-0.0" />
+      <point x="165.0" y="969.5" />
+      <point x="165.0" y="707.0" />
+      <point x="74.333" y="707.0" />
+      <point x="-80.87533333333326" y="201.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.util.DictionaryManagement" target="com.example.myjavafxapp.model.Dictionary" relationship="TO_ONE">
+      <point x="-0.0" y="-165.5" />
+      <point x="-67.00000000000023" y="69.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="221.5" y="75.0" />
+      <point x="3205.0" y="3494.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="-90.24966666666705" y="-141.5" />
+      <point x="3623.417" y="4868.0" />
+      <point x="3651.0" y="4868.0" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="67.0" y="-153.5" />
+      <point x="3563.916666666667" y="3949.0" />
+      <point x="3933.291666666667" y="3949.0" />
+      <point x="3933.291666666667" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="156.0" y="-0.0" />
+      <point x="3205.0" y="1590.5" />
+      <point x="3205.0" y="3226.5" />
+      <point x="3885.0" y="3226.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-45.0" />
+      <point x="3651.0" y="2122.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene1Controller" relationship="DEPENDENCY">
+      <point x="-2.4107142235152423E-4" y="-153.5" />
+      <point x="3771.454" y="5201.5" />
+      <point x="3885.0" y="5201.5" />
+      <point x="3885.0" y="5042.5" />
+      <point x="134.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.translator.Translate" target="com.example.myjavafxapp.translator.UrlToText" relationship="DEPENDENCY">
+      <point x="-138.0" y="-68.5" />
+      <point x="23.134765624997726" y="44.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="3.6383929159455874E-4" y="477.5" />
+      <point x="1933.081" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene1Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="3.333333329464949E-4" y="-141.5" />
+      <point x="3713.667" y="4853.0" />
+      <point x="3274.0" y="4853.0" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="86.03203050595857" y="-237.5" />
+      <point x="1225.196" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.WordGame" target="com.example.myjavafxapp.model.WordGame" relationship="DEPENDENCY">
+      <point x="-0.0" y="-189.5" />
+      <point x="657.0" y="763.5" />
+      <point x="476.0" y="763.5" />
+      <point x="476.0" y="788.5" />
+      <point x="-169.0" y="-181.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.model.Word" relationship="TO_ONE">
+      <point x="-156.0" y="-0.0" />
+      <point x="846.0" y="1590.5" />
+      <point x="846.0" y="1605.5" />
+      <point x="464.0" y="1605.5" />
+      <point x="464.0" y="-131.5" />
+      <point x="112.49966666666677" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.translator.Translate" target="com.example.myjavafxapp.translator.Translate" relationship="DEPENDENCY">
+      <point x="-2.4107142235152423E-4" y="68.5" />
+      <point x="2853.579" y="4248.0" />
+      <point x="2853.579" y="4248.0" />
+      <point x="-2.4107142235152423E-4" y="68.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.DictionaryApplication" target="com.example.myjavafxapp.sqlite.DatabaseManager" relationship="DEPENDENCY">
+      <point x="107.4995550595338" y="30.0" />
+      <point x="1352.0" y="5449.5" />
+      <point x="1352.0" y="2622.5" />
+      <point x="-216.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene7Controller" target="com.example.myjavafxapp.controller.Scene2Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="15.0" />
+      <point x="3651.0" y="2637.5" />
+      <point x="3651.0" y="3802.5" />
+      <point x="221.5" y="383.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene6Controller" target="com.example.myjavafxapp.controller.Scene3Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-0.0" />
+      <point x="3672.0" y="4124.5" />
+      <point x="3672.0" y="4328.0" />
+      <point x="1225.196" y="4328.0" />
+      <point x="86.03203050595857" y="-237.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.Scene6Controller" relationship="DEPENDENCY">
+      <point x="-14.999969494041352" y="237.5" />
+      <point x="1124.164" y="5590.5" />
+      <point x="3984.292" y="5590.5" />
+      <point x="3984.292" y="2107.5" />
+      <point x="3692.0" y="2107.5" />
+      <point x="3692.0" y="4109.5" />
+      <point x="134.0" y="-15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene2Controller" target="com.example.myjavafxapp.controller.Scene7Controller" relationship="DEPENDENCY">
+      <point x="221.5" y="368.0" />
+      <point x="3228.0" y="3787.5" />
+      <point x="3228.0" y="2592.5" />
+      <point x="-133.99987053571067" y="-30.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene5Controller" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="-134.0" y="-0.0" />
+      <point x="3251.0" y="5419.5" />
+      <point x="3251.0" y="4304.0" />
+      <point x="3158.0" y="4304.0" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.Scene5Controller" relationship="DEPENDENCY">
+      <point x="134.0" y="-15.0" />
+      <point x="3274.0" y="2152.5" />
+      <point x="3274.0" y="5434.5" />
+      <point x="-134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.model.WordGame" relationship="TO_ONE">
+      <point x="-15.0" y="-357.5" />
+      <point x="1663.0" y="1092.5" />
+      <point x="169.0" y="123.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene4Controller" target="com.example.myjavafxapp.controller.WordGameController" relationship="DEPENDENCY">
+      <point x="3.333333329464949E-4" y="-165.5" />
+      <point x="2725.417" y="1966.0" />
+      <point x="1678.0" y="1966.0" />
+      <point x="-0.0" y="357.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.WordGameController" target="com.example.myjavafxapp.controller.Scene4Controller" relationship="DEPENDENCY">
+      <point x="156.0" y="15.0" />
+      <point x="3158.0" y="1605.5" />
+      <point x="3158.0" y="2182.5" />
+      <point x="134.0" y="15.0" />
+    </edge>
+    <edge source="com.example.myjavafxapp.controller.Scene3Controller" target="com.example.myjavafxapp.controller.DictionaryController" relationship="GENERALIZATION">
+      <point x="-0.0" y="-237.5" />
+      <point x="1139.1639694940413" y="4330.0" />
+      <point x="1195.1958705357106" y="4330.0" />
+      <point x="1195.1958705357106" y="758.0" />
+      <point x="2792.416666666667" y="758.0" />
+      <point x="-0.0" y="57.5" />
+    </edge>
+    <edge source="com.example.myjavafxapp.model.Word" target="com.example.myjavafxapp.model.Word" relationship="DEPENDENCY">
+      <point x="-80.87533333333326" y="201.5" />
+      <point x="74.333" y="707.0" />
+      <point x="74.333" y="707.0" />
+      <point x="-80.87533333333326" y="201.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.1273459517812163" showDependencies="true" x="1857.835349289281" y="3290.3467437771274" />
+  <SelectedNodes>
+    <node>com.example.myjavafxapp.sqlite.CSVToDatabase</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

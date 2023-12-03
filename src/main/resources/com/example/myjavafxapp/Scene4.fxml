@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox prefHeight="800" prefWidth="1280.0" stylesheets="@../../../graphic/css/scene4.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myjavafxapp.controller.Scene4Controller">
+
+    <VBox id="taskbar" prefHeight="800.0" prefWidth="298.0" spacing="10">
+        <Pane prefHeight="182.0" prefWidth="200.0" />
+        <Button mnemonicParsing="false" onAction="#switchToScene1" prefHeight="50.0" prefWidth="250.0" styleClass="class-button" text="Home">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="161.0" onAction="#switchToScene2" prefHeight="50.0" prefWidth="247.0" styleClass="class-button" text="Search">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="120.0" onAction="#switchToScene3" prefHeight="50.0" prefWidth="250.0" styleClass="class-button" text="Translate">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="200.0" prefHeight="50.0" prefWidth="250.0" styleClass="class-button-color" text="Game">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Pane prefHeight="88.0" prefWidth="255.0" />
+        <Button mnemonicParsing="false" onAction="#switchToScene5" prefHeight="52.0" prefWidth="254.0" styleClass="class-button" text="Grammar" />
+        <Button mnemonicParsing="false" onAction="#switchToScene6" prefHeight="43.0" prefWidth="254.0" styleClass="class-button" text="Vocabulary" />
+        <Button mnemonicParsing="false" onAction="#switchToScene7" prefHeight="50.0" prefWidth="233.0" styleClass="class-button" text="Help" />
+        <Button mnemonicParsing="false" onAction="#showExitConfirmation" prefHeight="34.0" prefWidth="236.0" styleClass="class-button" text="Exit " />
+    </VBox>
+    <Pane prefHeight="800.0" prefWidth="27.0" />
+    <VBox prefHeight="800.0" prefWidth="388.0">
+        <children>
+            <Pane prefHeight="223.0" prefWidth="388.0" />
+            <TextField blendMode="ADD" cache="true" prefHeight="71.0" prefWidth="388.0" promptText="Discover the beauty ">
+                <font>
+                    <Font size="36.0" />
+                </font>
+                <effect>
+                    <Blend mode="GREEN">
+                        <topInput>
+                            <Lighting>
+                                <bumpInput>
+                                    <DropShadow />
+                                </bumpInput>
+                                <light>
+                                    <!--                           <Light.Distant />-->
+                                </light>
+                            </Lighting>
+                        </topInput>
+                    </Blend>
+                </effect>
+            </TextField>
+            <TextField prefHeight="28.0" prefWidth="388.0" promptText="---------------------------------------------------------------------" />
+            <TextField blendMode="ADD" promptText=" * of ENGLISH">
+                <font>
+                    <Font size="36.0" />
+                </font>
+                <effect>
+                    <Blend mode="GREEN">
+                        <topInput>
+                            <Lighting>
+                                <bumpInput>
+                                    <DropShadow />
+                                </bumpInput>
+                                <light>
+                                    <!--                                 <Light.Distant />-->
+                                </light>
+                            </Lighting>
+                        </topInput>
+                    </Blend>
+                </effect>
+            </TextField>
+            <TextField promptText="---------------------------------------------------" />
+            <TextField alignment="BOTTOM_LEFT" promptText="Learning English will become simple and interesting when combining " />
+            <TextField alignment="TOP_LEFT" prefHeight="26.0" prefWidth="388.0" promptText="learning and playing through this game..." />
+            <Pane prefHeight="70.0" prefWidth="650.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+                <children>
+                    <Pane prefHeight="100.0" prefWidth="129.0" />
+
+                    <Button onAction="#startWordGame" styleClass="class-button-color" text="Start Game" />
+                </children>
+            </HBox>
+        </children>
+    </VBox>
+     <ImageView fitHeight="637.0" fitWidth="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+             <Image url="@../../../graphic/img/MimGame.jpg" />
+         </image>
+     </ImageView>
+
+</HBox>

@@ -1,0 +1,22 @@
+.root {
+    -fx-background-image: url('../img/Back1.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+.class-button-color {
+ -fx-font-size: 14px;
+ -fx-text-fill: #ae0f9f
+ }
+
+.class-button {
+ -fx-font-size: 14px;
+ -fx-text-fill: #f4efef
+ }

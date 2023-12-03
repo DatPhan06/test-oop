@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../graphic/css/style.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.myjavafxapp.controller.WordGameController">
+    <HBox alignment="CENTER" prefHeight="355.0" prefWidth="1280.0" spacing="10" style="-fx-background-color: trans;"
+          styleClass="vbox">
+        <Pane prefHeight="181.0" prefWidth="78.0"/>
+        <Label fx:id="wordLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="94.0" prefWidth="331.0"
+               styleClass="wordLabel" text="Câu hỏi" textFill="#f4e8e8">
+            <font>
+                <Font name=".VnArabia" size="36.0"/>
+            </font>
+        </Label>
+        <Pane prefHeight="181.0" prefWidth="287.0"/>
+        <VBox prefHeight="174.0" prefWidth="329.0">
+            <children>
+                <Label fx:id="timeLabel" alignment="BOTTOM_LEFT" prefHeight="90.0" prefWidth="326.0"
+                       styleClass="timeLabel" text="Thời gian còn lại: " textFill="#b71c9d"/>
+                <Label fx:id="resultLabel" prefHeight="50.0" prefWidth="314.0" styleClass="resultLabel" text="Điểm số:"
+                       textFill="#efc9c9"/>
+            </children>
+        </VBox>
+
+    </HBox>
+    <Pane prefHeight="20.0" prefWidth="1278.0"/>
+    <HBox prefHeight="300.0" prefWidth="1280.0">
+        <children>
+            <Pane prefHeight="213.0" prefWidth="43.0"/>
+            <RadioButton fx:id="optionA" prefHeight="202.0" prefWidth="572.0" styleClass="radioButton" text="A"
+                         textFill="#f7efef">
+                <toggleGroup>
+                    <ToggleGroup fx:id="answerToggleGroup"/>
+                </toggleGroup>
+            </RadioButton>
+            <Pane prefHeight="213.0" prefWidth="69.0"/>
+            <RadioButton fx:id="optionB" prefHeight="202.0" prefWidth="562.0" styleClass="radioButton" text="B"
+                         textFill="#f7efef" toggleGroup="$answerToggleGroup"/>
+            <Pane prefHeight="202.0" prefWidth="80.0"/>
+        </children>
+    </HBox>
+    <Pane prefHeight="100.0" prefWidth="1280.0"/>
+    <HBox prefHeight="300.0" prefWidth="1280.0">
+        <children>
+            <Pane prefHeight="213.0" prefWidth="35.0"/>
+            <RadioButton fx:id="optionC" prefHeight="208.0" prefWidth="565.0" styleClass="radioButton" text="C"
+                         textFill="#f7efef" toggleGroup="$answerToggleGroup"/>
+            <Pane prefHeight="213.0" prefWidth="60.0"/>
+            <RadioButton fx:id="optionD" prefHeight="210.0" prefWidth="562.0" styleClass="radioButton" text="D"
+                         textFill="#f7efef" toggleGroup="$answerToggleGroup"/>
+            <Pane prefHeight="213.0" prefWidth="64.0"/>
+        </children>
+    </HBox>
+    <Pane prefHeight="105.0" prefWidth="1280.0"/>
+    <HBox prefHeight="160.0" prefWidth="200.0">
+        <children>
+            <Pane prefHeight="66.0" prefWidth="561.0"/>
+
+            <Button fx:id="checkButton" alignment="TOP_LEFT" onAction="#handleCheckButtonAction" prefHeight="31.0"
+                    prefWidth="136.0" style="-fx-background-color: transparent;" styleClass="checkButton"
+                    text="Kiểm tra">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Pane prefHeight="66.0" prefWidth="432.0"/>
+            <Button fx:id="exitButton" alignment="BOTTOM_CENTER" onAction="#handleExitButtonAction" prefHeight="42.0"
+                    prefWidth="94.0" styleClass="exitButton" text="Exit" textFill="#d6d5dc">
+                <font>
+                    <Font size="14.0"/>
+                </font>
+            </Button>
+        </children>
+    </HBox>
+</VBox>

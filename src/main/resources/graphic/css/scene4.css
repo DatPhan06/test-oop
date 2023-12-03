@@ -1,0 +1,38 @@
+.root {
+    -fx-background-image: url('../img/BackGame.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+Button {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+.class-button-color {
+ -fx-font-size: 14px;
+ -fx-text-fill: #ae0f9f
+ }
+.color-changing-button:pressed {
+  -fx-background-color: #490F59;
+}
+.class-button {
+ -fx-font-size: 14px;
+ -fx-text-fill: #f4efef
+ }
+TextField {
+    -fx-background-color : rgba(0, 0, 0, 0);
+    -fx-color : rgb(105, 86, 86);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}
+
+TextArea {
+    -fx-background-color : rgba(0, 0, 11, 0);
+    -fx-color : rgb(105, 86, 86);
+    -fx-padding : 5px 10px;
+    -fx-cursor : pointer;
+    -fx-border-radius : 20px;
+}

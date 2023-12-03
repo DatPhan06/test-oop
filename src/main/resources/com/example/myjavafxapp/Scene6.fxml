@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="800.0" prefWidth="1280.0" stylesheets="@../../../graphic/css/scene6.css"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.myjavafxapp.controller.Scene6Controller">
+    <VBox id="taskbar" prefHeight="800.0" prefWidth="255.0" spacing="10">
+        <Pane prefHeight="182.0" prefWidth="200.0"/>
+
+        <Button mnemonicParsing="false" onAction="#switchToScene1" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Home">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+
+        <Button layoutX="14.0" layoutY="161.0" onAction="#switchToScene2" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Search">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+
+        <Button layoutX="14.0" layoutY="120.0" onAction="#switchToScene3" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Translate">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="200.0" onAction="#switchToScene4" prefHeight="50.0" prefWidth="250.0"
+                styleClass="class-button" text="Game">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Pane prefHeight="88.0" prefWidth="255.0"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene5" prefHeight="52.0" prefWidth="254.0"
+                styleClass="class-button" text="Grammar"/>
+        <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="254.0" styleClass="class-button-color"
+                text="Vocabulary"/>
+        <Button mnemonicParsing="false" onAction="#switchToScene7" prefHeight="50.0" prefWidth="233.0"
+                styleClass="class-button" text="Help"/>
+        <Button mnemonicParsing="false" onAction="#showExitConfirmation" prefHeight="34.0" prefWidth="236.0" styleClass="class-button" text="Exit "/>
+    </VBox>
+    <Pane prefHeight="800.0" prefWidth="30.0"/>
+    <VBox prefHeight="200.0" prefWidth="910.0">
+        <children>
+            <Pane prefHeight="68.0" prefWidth="910.0"/>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="850.0" text="Vocabulary"
+                   textAlignment="CENTER" textFill="#cc3d8b">
+                <font>
+                    <Font name=".Vn3DH Normal" size="64.0"/>
+                </font>
+            </Label>
+            <Pane prefHeight="35.0" prefWidth="910.0"/>
+            <ScrollPane prefHeight="547.0" prefWidth="1000.0">
+                <VBox>
+
+                    <Label styleClass="label-style1" text="Từ vựng về trường học, các loại trường học"/>
+                    <Label styleClass="label-style3" text=" 1. School: Trường học"/>
+                    <Label styleClass="label-style3" text=" 2. Nursery school: Trường mẫu giáo"/>
+                    <Label styleClass="label-style3" text=" 3. Primary school: Trường tiểu học"/>
+                    <Label styleClass="label-style3" text=" 4. Secondary school: Trường trung học"/>
+                    <Label styleClass="label-style3" text=" 5. Public school: Trường Công lập"/>
+                    <Label styleClass="label-style3" text=" 6. Private school: Trường tư nhân"/>
+                    <Label styleClass="label-style3" text=" 7. Boarding school: Trường nội trú"/>
+                    <Label styleClass="label-style3" text=" 8. Day school: Trường bán trú"/>
+                    <Label styleClass="label-style3" text=" 9. College: Trường cao đẳng"/>
+                    <Label styleClass="label-style3" text=" 10. Technical college: Trường cao đẳng kỹ thuật"/>
+                    <Label styleClass="label-style3" text=" 11. University: Trường đại học"/>
+                    <Label styleClass="label-style3" text=" 12. Art college: Trường cao đẳng nghệ thuật"/>
+                    <Label styleClass="label-style1" text="Từ vựng về trường học, các môn học và chuyên ngành học"/>
+                    <Label styleClass="label-style3" text="13. Biology: Sinh học"/>
+                    <Label styleClass="label-style3" text="14. Archaeology: Khảo cổ học"/>
+                    <Label styleClass="label-style3" text="15. Math: Toán học"/>
+                    <Label styleClass="label-style3" text="16. Astronomy: Thiên văn học"/>
+                    <Label styleClass="label-style3" text="17. Physics: Vật lý"/>
+                    <Label styleClass="label-style3" text="18. Linguistics: Ngôn ngữ học"/>
+                    <Label styleClass="label-style3" text="19. Chemistry: Hóa học"/>
+                    <Label styleClass="label-style3" text="20. Engineering: Kỹ thuật"/>
+                    <Label styleClass="label-style3" text="21. Science: Khoa học"/>
+                    <Label styleClass="label-style3" text="22. Medicine: Y học"/>
+                    <Label styleClass="label-style3" text="23. Literature: Văn học"/>
+                    <Label styleClass="label-style3" text="24. Architecture: Kiến trúc"/>
+                    <Label styleClass="label-style3" text="25. Music: Âm nhạc"/>
+                    <Label styleClass="label-style3" text="26. Sociology: Xã hội học"/>
+                    <Label styleClass="label-style3" text="27. Geography: Địa lý"/>
+                    <Label styleClass="label-style3" text="28. Psychology: Tâm lý học"/>
+                    <Label styleClass="label-style3" text="29. English: Tiếng Anh"/>
+                    <Label styleClass="label-style3" text="30. Geology: Địa chất học"/>
+                    <Label styleClass="label-style3" text="31. History: Lịch sử"/>
+                    <Label styleClass="label-style3" text="32. Economics: Kinh tế học"/>
+                    <Label styleClass="label-style1" text="Các chuyên ngành đại học bằng tiếng Anh"/>
+                    <Label styleClass="label-style3" text="33. Architecture: Kiến trúc"/>
+                    <Label styleClass="label-style3" text="34. Agriculture: Nông nghiệp"/>
+                    <Label styleClass="label-style3" text="35. Veterinary Medicine: Thú y"/>
+                    <Label styleClass="label-style3" text="36. Orthodontics: Răng - hàm - mặt"/>
+                    <Label styleClass="label-style3" text="37. Medicine: Y dược"/>
+                    <Label styleClass="label-style3" text="38. Public Health: Y tế Cộng đồng"/>
+                    <Label styleClass="label-style3" text="39. Nursing: Y tá"/>
+                    <Label styleClass="label-style3" text="40. Pharmacy: Dược phẩm"/>
+                    <Label styleClass="label-style3" text="41. Dentistry: Nha Khoa"/>
+                    <Label styleClass="label-style3" text="42. Hotel Management: Quản trị Khách sạn"/>
+                    <Label styleClass="label-style3" text="43. Pedagogy: Giáo dục học"/>
+                    <Label styleClass="label-style3" text="44. Pedagogical Management: Quản lý Giáo dục"/>
+                    <Label styleClass="label-style3" text="45. Primary Education: Giáo dục Tiểu học"/>
+                    <Label styleClass="label-style3" text="46. Early Childhood Education: Giáo dục Mầm non"/>
+                    <Label styleClass="label-style3" text="47. Mathematics Teacher Education: Sư phạm Toán"/>
+                    <Label styleClass="label-style3" text="48. Geography Teacher Education: Sư phạm Địa"/>
+                    <Label styleClass="label-style3" text="49. Physics Teacher Education: Sư phạm Lý"/>
+                    <Label styleClass="label-style3"
+                           text="50. Linguistics and Literature Teacher Education: Sư phạm Văn"/>
+                    <Label styleClass="label-style3" text="51. Biology Teacher Education: Sư phạm Sinh"/>
+                    <Label styleClass="label-style3" text="52. Politics: Chính trị học"/>
+                    <Label styleClass="label-style3" text="53. Anthropology: Nhân học"/>
+                    <Label styleClass="label-style3" text="54. International Studies: Quốc tế học"/>
+                    <Label styleClass="label-style3" text="55. Psychology: Tâm lý học"/>
+                    <Label styleClass="label-style3" text="56. Vietnamese Studies: Việt Nam học"/>
+                    <Label styleClass="label-style3" text="57. Industrial Design: Thiết kế Công nghiệp"/>
+                    <Label styleClass="label-style3" text="58. Law: Luật"/>
+                    <Label styleClass="label-style3"
+                           text="59. Constitutional and Administrative Law: Luật hiến pháp và luật hành chính"/>
+                    <Label styleClass="label-style3" text="60. Criminal Procedure Law: Luật Hình sự"/>
+                    <Label styleClass="label-style3" text="61. Civil Procedure Law: Luật Dân sự"/>
+                    <Label styleClass="label-style3" text="62. International Law: Luật Quốc tế"/>
+                    <Label styleClass="label-style3" text="63. Economic Law: Luật Kinh tế"/>
+                    <Label styleClass="label-style3" text="64. Civil Engineering: Kỹ sư Xây dựng Dân dụng"/>
+                    <Label styleClass="label-style3" text="65. Electrical Engineering: Kỹ sư điện"/>
+                    <Label styleClass="label-style3" text="66. Food Science: Khoa học Thực phẩm"/>
+                    <Label styleClass="label-style3"
+                           text="67. Transportation Engineering and Technology: Công nghệ Kỹ thuật Giao thông"/>
+                    <Label styleClass="label-style3"
+                           text="68. Materials Science and Engineering: Khoa học và công nghệ Vật Liệu"/>
+                    <Label styleClass="label-style3"
+                           text="69. Automotive Engineering Technology: Công nghệ Kỹ thuật ô tô"/>
+                    <Label styleClass="label-style3" text="70. Environmental Engineering: Công nghệ Môi trường"/>
+                    <Label styleClass="label-style3"
+                           text="71. Mechanical Engineering Technology: Công nghệ Kỹ thuật Cơ khí"/>
+                    <Label styleClass="label-style3" text="72. Chemical Engineering: Công nghiệp hóa chất"/>
+                    <Label styleClass="label-style1" text="Từ vựng về trường học, các chức vụ trong trường học"/>
+                    <Label styleClass="label-style3" text="73. principal: hiệu trưởng"/>
+                    <Label styleClass="label-style3" text="74. vice principal: hiệu phó"/>
+                    <Label styleClass="label-style3" text="75. teacher: giáo viên"/>
+                    <Label styleClass="label-style3" text="76. form teacher: giáo viên chủ nhiệm"/>
+                    <Label styleClass="label-style3" text="77. lecturer: giảng viên"/>
+                    <Label styleClass="label-style3" text="78. teaching assistant: trợ giảng"/>
+                    <Label styleClass="label-style3" text="79. tutor: gia sư"/>
+                    <Label styleClass="label-style3" text="80. pupil: học sinh"/>
+                    <Label styleClass="label-style3" text="81. student: sinh viên"/>
+                    <Label styleClass="label-style3" text="82. janitor: lao công"/>
+                    <Label styleClass="label-style3" text="83. school security guard: bảo vệ"/>
+                    <Label styleClass="label-style3" text="84. class monitor: lớp trưởng"/>
+                    <Label styleClass="label-style3" text="85. vice-monitor: lớp phó"/>
+                    <Label styleClass="label-style3" text="86. secretary: bí thư"/>
+                    <Label styleClass="label-style3" text="87. freshman Sinh viên năm nhất"/>
+                    <Label styleClass="label-style3" text="88. sophomore Sinh viên năm hai"/>
+                    <Label styleClass="label-style3" text="89. third-year student Sinh viên năm ba"/>
+                    <Label styleClass="label-style3" text="90. final year student Sinh viên năm cuối"/>
+                    <Label styleClass="label-style3" text="91. researcher nghiên cứu sinh"/>
+                    <Label styleClass="label-style3" text="92. master student sinh viên cao học"/>
+                    <Label styleClass="label-style3" text="93. PhD student nghiên cứu sinh bằng tiến sĩ"/>
+
+                </VBox>
+            </ScrollPane>
+        </children>
+    </VBox>
+
+
+</HBox>
